@@ -22,6 +22,9 @@
 body{
     background-color: #f7f7f7;
 }
+.nav-hr{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -62,7 +65,7 @@ nav{
 }
 
 .bar{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: none;
 }
 
@@ -215,6 +218,9 @@ nav{
         margin-top: 1rem;
        
     }
+    .nav-hr{
+        display: block;
+    }
    .bar > i{
     font-size: 2rem;
    }
@@ -240,6 +246,7 @@ nav{
     .hero-section{
         flex-direction: column-reverse;
         padding: 0px;
+        margin-bottom: 4rem;
     }
     .hero-content{
         width: 100%;
@@ -247,13 +254,13 @@ nav{
      
     }
     .hero-title{
-        font-size: 2.4rem;
-        font-weight: 600;
+        font-size: 2rem;
+        font-weight: 800;
         letter-spacing: 0.3px;
     }
    .hero-paragraph{
-        font-size: 1rem;
-        letter-spacing: 0.3px;
+        font-size: 1.16rem;
+        letter-spacing: 0.5px;
    }
     .hero-image{
         width: 100%;
@@ -275,7 +282,26 @@ nav{
         height: auto;
         margin: 0px auto;
       
-  
+    }
+    .standard-section{
+        align-items: center;
+    }
+    .standar-title{
+        font-size: 2rem;
+        width: 100%;
+        font-weight: bold;
+       
+    }
+    .box-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .box-content h5{
+        font-size: 1.5rem;
+        width: 100%;
     }
     .standard-box{
         margin: 0rem;
