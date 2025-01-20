@@ -9,9 +9,14 @@
   font-style: normal;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
 *{
     margin: 0rem;
     padding: 0rem;
+    font-family: "Quicksand", serif;
+
     /* background-color: #f7f7f7; */
 }
 body{
@@ -23,6 +28,8 @@ nav{
     align-items: center;
     /* background-color: antiquewhite; */
     padding: 10px;
+    width: 100%;
+    margin: auto;
 }
 .logo-title{
     display: flex;
@@ -153,7 +160,7 @@ nav{
     font-weight: 500;
     padding: 1rem;
     margin-bottom: 2rem;
-    color: #4f4d4d;
+    color: #808080;
 }
 .box-content a{
     text-decoration: none;
@@ -206,6 +213,7 @@ nav{
         justify-content: space-between;
         padding: 0rem;
         margin-top: 1rem;
+       
     }
    .bar > i{
     font-size: 2rem;
@@ -225,6 +233,7 @@ nav{
         position: absolute;
         top: 30px;
         right: 50px;
+        display: inline;
     }
 
     /* Hero */
@@ -257,5 +266,26 @@ nav{
     .hero-btn{
         width: 40%;
     }
-    
+
+    /* Standard  */
+    .standard-container{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin: 0px auto;
+      
+  
+    }
+    .standard-box{
+        margin: 0rem;
+        width: 100%;
+        height: auto;     
+    }
+    .circle-icon{
+        display: none;
+    }
+    .box-content p{
+        color: #808080;
+    }
 }
