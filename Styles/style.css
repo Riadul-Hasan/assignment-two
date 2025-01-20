@@ -87,6 +87,45 @@ nav{
     width: 30%;
 }
 
+/* Standard Styles */
+.standard-section{
+    margin-top: 100px;
+    background-color: antiquewhite;
+    width: 80%;
+    height: 800px;
+    margin: 0px auto;
+    background-image: url(../assets/bg.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.standar-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.standard-container{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.standard-box{
+   height: 400px;
+   width: auto;
+   background-color: #f7f7f7;
+   padding: 1.25rem;
+   text-align: center;
+}
+.standard-box .image{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.box-content{
+    width: 70%;
+    margin: 0px auto;
+    
+}
 
 
 
@@ -104,4 +143,64 @@ nav{
 
 
 
+/* Media Queries */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: flex-start;
+        position: relative;
+        justify-content: space-between;
+        padding: 0rem;
+        margin-top: 1rem;
+    }
+   .bar > i{
+    font-size: 2rem;
+   }
+    .nav-btn{
+        position: absolute;
+        right: 30px;
+        display: none;
+    }
+    nav a{
+        display: none;
+    }
+    .logo-title .title{
+        display: none;
+    }
+    .bar{
+        position: absolute;
+        top: 30px;
+        right: 50px;
+    }
 
+    /* Hero */
+    .hero-section{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .hero-content{
+        width: 100%;
+        text-align: center;
+     
+    }
+    .hero-title{
+        font-size: 2.4rem;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+    }
+   .hero-paragraph{
+        font-size: 1rem;
+        letter-spacing: 0.3px;
+   }
+    .hero-image{
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 3rem;
+    }
+    .hero-image > img{
+        width: 100%;
+    }
+    .hero-btn{
+        width: 40%;
+    }
+    
+}
