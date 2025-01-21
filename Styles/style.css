@@ -154,13 +154,12 @@ nav {
     margin-top: 50px;
     border-radius: 1.25rem;
     background: linear-gradient(0deg, #ffffff, #DEF5FF);
-
 }
 
 
 .strd-box3 {
     background: linear-gradient(0deg, #ffffff, #F2E8FF);
-
+    /* box-shadow: 5px 2px 15px #F2E8FF; */
 }
 
 
@@ -576,6 +575,7 @@ marquee{
         width: 90%;
         height: auto;
         margin: 0px auto;
+        row-gap: 2.5rem;
 
     }
 
