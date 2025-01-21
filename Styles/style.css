@@ -691,3 +691,18 @@ marquee{
         display: none;
     }
 }
+
+
+@media screen and (max-width: 500px){
+    .story-section{
+        margin-top: 1000px;
+    }
+    .story-content {
+        width: 100%;
+        width: 180px;
+        /* height: 600px; */
+        height: auto;
+
+    }
+    
+}
