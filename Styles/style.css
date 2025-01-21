@@ -116,7 +116,7 @@ nav {
 .standard-section {
     margin-top: 100px;
     width: 80%;
-    height: 950px;
+    height: 830px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -126,6 +126,7 @@ nav {
 .for-standard-bg {
     background-image: url(../assets/bg.png);
     margin-top: 100px;
+    
 }
 
 
@@ -479,13 +480,13 @@ nav {
 }
 
 
-
-
-
-
-
-
-
+/* Marquee Style */
+marquee{
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #e2f0f6;
+    opacity: 70%;
+}
 
 
 
@@ -685,5 +686,8 @@ nav {
 
     .anchor-div {
         gap: 0.5rem;
+    }
+    marquee{
+        display: none;
     }
 }
