@@ -63,6 +63,11 @@ nav {
     color: white;
 }
 
+.primary-btn:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
 .logo-title .title {
     font-size: 2rem;
     font-weight: bold;
@@ -110,11 +115,9 @@ nav {
 /* Standard Styles */
 .standard-section {
     margin-top: 100px;
-    /* background-color: antiquewhite; */
     width: 80%;
     height: 950px;
     margin: 0px auto;
-    /* background-image: url(../assets/bg.png); */
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
@@ -141,7 +144,7 @@ nav {
 }
 
 .standard-box {
-    height: 500px;
+    height: auto;
     width: 25%;
     margin: 0px auto;
     background-color: white;
@@ -149,47 +152,35 @@ nav {
     text-align: center;
     margin-top: 50px;
     border-radius: 1.25rem;
-    /* background: linear-gradient(180deg, rgb(22, 59, 59) -300%, rgba(16, 16, 16, 0) 100%) */
     background: linear-gradient(0deg, #ffffff, #DEF5FF);
 
 }
 
-.strd-box2 {
-    background: linear-gradient(0deg, #ffffff, #FFF4DC);
-
-}
 
 .strd-box3 {
     background: linear-gradient(0deg, #ffffff, #F2E8FF);
 
 }
 
-.standard-box .image {
-    text-align: center;
-    margin-bottom: 2rem;
-}
 
-.box-content {
-    width: 80%;
-    margin: 0px auto;
-
-}
-
-.box-content h5 {
+.strd-box3 h5 {
     font-size: 2.09rem;
     font-weight: bold;
     padding: 1rem;
 }
 
-.box-content p {
+.strd-box3 p {
     font-size: 1.3rem;
     font-weight: 500;
     padding: 1rem;
     margin-bottom: 2rem;
     color: #808080;
+    text-align: center;
+
 }
 
-.box-content a {
+
+.content-a a {
     text-decoration: none;
     color: #64C8FF;
     font-size: 1rem;
@@ -403,8 +394,14 @@ nav {
     color: white;
 }
 
+.story-btn:hover {
+    background-color: #01ACFD;
+    color: black;
+    cursor: pointer;
+}
+
 /* Footer Styles */
-.footer{
+.footer {
     background-color: #01ACFD;
     height: 600px;
     color: white;
@@ -412,9 +409,10 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.footer-content{
+
+.footer-content {
     width: 75%;
-    margin:auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
@@ -422,52 +420,59 @@ nav {
     /* backgr/ound-color: #3CD8E8; */
     padding: 100px;
 }
-.footer-box{
+
+.footer-box {
     width: 33%;
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     margin-bottom: 3rem;
     gap: 1rem;
 }
-.footer-logo > h2{
+
+.footer-logo>h2 {
     font-size: 2rem;
     font-weight: bold;
 }
-.footer-logo > div{
+
+/* .footer-logo > div{
     background-color: rgb(234, 224, 224);
     border-radius: 1rem;
-}
-.logo-paragraph{
+} */
+.logo-paragraph {
     width: 18em;
     font-size: 1rem;
 }
 
-.about-div > h4{
+.about-div>h4 {
     color: white;
     font-size: 1.25rem;
     font-weight: bold;
 }
-.anchor-div{
+
+.anchor-div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-top: 1rem;
-    
+
 }
-.anchor-div > p > a{
+
+.anchor-div>p>a {
     text-decoration: none;
     color: white;
     font-size: 700;
 }
 
-.footer-icon > h4{
+.footer-icon>h4 {
     font-size: 1.25rem;
     font-weight: bold;
     width: 10em;
     margin-bottom: 1.5rem;
 }
-.footer-icon > .for-icon{
+
+.footer-icon>.for-icon {
     display: flex;
     gap: 0.7rem;
 
@@ -578,23 +583,10 @@ nav {
     }
 
     .standar-title {
-        font-size: 2rem;
+        font-size: 2.7rem;
         width: 100%;
         font-weight: bold;
 
-    }
-
-    .box-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .box-content h5 {
-        font-size: 1.5rem;
-        width: 100%;
     }
 
     .standard-box {
@@ -607,8 +599,10 @@ nav {
         display: none;
     }
 
-    .box-content p {
+    .standard-box p {
         color: #808080;
+        text-align: center;
+        width: 90%;
     }
 
     /* story */
@@ -670,22 +664,26 @@ nav {
     }
 
     /* Footer */
-    .footer{
+    .footer {
         justify-content: flex-start;
     }
-    .footer-content{
+
+    .footer-content {
         grid-template-columns: repeat(1, 1fr);
-       gap: 2rem;
-       padding: 2rem;
-       margin: 0rem;
+        gap: 2rem;
+        padding: 2rem;
+        margin: 0rem;
     }
-    .footer-content > .logo-div{
+
+    .footer-content>.logo-div {
         margin-top: 2rem;
     }
-    .footer-logo{
+
+    .footer-logo {
         margin-bottom: 1rem;
     }
-    .anchor-div{
+
+    .anchor-div {
         gap: 0.5rem;
     }
 }
