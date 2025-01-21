@@ -403,6 +403,76 @@ nav {
     color: white;
 }
 
+/* Footer Styles */
+.footer{
+    background-color: #01ACFD;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content{
+    width: 75%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    /* align-items: center; */
+    /* backgr/ound-color: #3CD8E8; */
+    padding: 100px;
+}
+.footer-box{
+    width: 33%;
+}
+.footer-logo{
+    display: flex;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+.footer-logo > h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer-logo > div{
+    background-color: rgb(234, 224, 224);
+    border-radius: 1rem;
+}
+.logo-paragraph{
+    width: 18em;
+    font-size: 1rem;
+}
+
+.about-div > h4{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.anchor-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.anchor-div > p > a{
+    text-decoration: none;
+    color: white;
+    font-size: 700;
+}
+
+.footer-icon > h4{
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 10em;
+    margin-bottom: 1.5rem;
+}
+.footer-icon > .for-icon{
+    display: flex;
+    gap: 0.7rem;
+
+}
+
 
 
 
@@ -543,12 +613,11 @@ nav {
 
     /* story */
     .story-section {
-        margin-top: 800px;
+        margin-top: 700px;
     }
 
     .our-story {
         margin: auto;
-
 
     }
 
@@ -565,7 +634,7 @@ nav {
 
     .story-content {
         width: 100%;
-        width: 200px;
+        width: 250px;
         /* height: 600px; */
         height: auto;
 
@@ -598,5 +667,25 @@ nav {
         padding: 10px;
         margin: 0rem;
         margin-top: 1.7rem;
+    }
+
+    /* Footer */
+    .footer{
+        justify-content: flex-start;
+    }
+    .footer-content{
+        grid-template-columns: repeat(1, 1fr);
+       gap: 2rem;
+       padding: 2rem;
+       margin: 0rem;
+    }
+    .footer-content > .logo-div{
+        margin-top: 2rem;
+    }
+    .footer-logo{
+        margin-bottom: 1rem;
+    }
+    .anchor-div{
+        gap: 0.5rem;
     }
 }
