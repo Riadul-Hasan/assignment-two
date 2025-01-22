@@ -126,7 +126,7 @@ nav {
 .for-standard-bg {
     background-image: url(../assets/bg.png);
     margin-top: 100px;
-    
+    height: auto;
 }
 
 
@@ -550,7 +550,7 @@ marquee{
     }
 
     .hero-paragraph {
-        font-size: 1.16rem;
+        font-size: 1.25rem;
         letter-spacing: 0.5px;
     }
 
@@ -572,30 +572,50 @@ marquee{
     .standard-container {
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin: 0px auto;
+        /* margin: 1rem; */
+        padding: 0rem;
         row-gap: 2.5rem;
 
     }
 
     .standard-section {
+        width: 100%;
         align-items: center;
+        height: auto;
+        margin: 0rem;
+        
     }
+
+    .for-standard-bg{
+        height: auto;
+        margin-top: 10rem;
+    }
+
 
     .standar-title {
-        font-size: 2.7rem;
+        font-size: 2.25rem;
         width: 100%;
         font-weight: bold;
-
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 3rem;
+        
     }
-
+    .standard-box > h5{
+        width: 56%;
+        margin: 0px auto;
+    }
     .standard-box {
         margin: 0rem;
-        width: 100%;
-        height: auto;
+        width: 95%;
+        height: 480px;
+        padding: 0rem;
     }
-
+    .standard-box > img{
+        margin-top: 2rem;
+    }
     .circle-icon {
         display: none;
     }
@@ -603,17 +623,20 @@ marquee{
     .standard-box p {
         color: #808080;
         text-align: center;
-        width: 90%;
+        width: 70%;
+        margin: 1rem auto;
     }
 
     /* story */
     .story-section {
-        margin-top: 700px;
+        margin-top: 12rem;
+        width: auto;
     }
 
     .our-story {
-        margin: auto;
-
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
     }
 
     .box1 {
@@ -621,17 +644,19 @@ marquee{
     }
 
     .story-container {
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        justify-content: center;
-
+        gap: 0rem;
+        justify-items: center;
+        align-items: center;
+    
     }
 
     .story-content {
-        width: 100%;
-        width: 250px;
-        /* height: 600px; */
-        height: auto;
+        width: 90%;
+        /* width: 250px; */
+        height: 330px;
+
 
     }
 
@@ -695,14 +720,19 @@ marquee{
 
 @media screen and (max-width: 500px){
     .story-section{
-        margin-top: 1000px;
+        margin-top: 200px;
     }
     .story-content {
-        width: 100%;
-        width: 180px;
+        width: 95%;
+        /* width: 180px; */
         /* height: 600px; */
-        height: auto;
+        height: 330px;
 
     }
-    
+    .for-standard-bg{
+        margin-top: 150px;
+    }
+    .standard-box{
+        height: 530px;
+    }
 }
